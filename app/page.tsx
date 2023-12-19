@@ -14,14 +14,14 @@ export default function Home() {
         <div className="padding-sections">
           <SectionOne />
           <SectionTwo />
+          <p className="text-xs text-center p-2 w-80 absolute  bottom-0 left-0 opacity-30">
+            Este projeto foi desenvolvido para simular o cliente do Valorant. a
+            sua concepção foi voltada para computadores, assim como o cliente
+            original. Para uma experiência visual única, assegure-se de estar
+            utilizando um computador.
+          </p>
         </div>
       </div>
-      <p className="text-xs text-center p-2 ">
-        Este projeto foi desenvolvido para simular o cliente do Valorant. a sua
-        concepção foi voltada para computadores, assim como o cliente original.
-        Para uma experiência visual única, assegure-se de estar utilizando um
-        computador.
-      </p>
     </main>
   );
 }
