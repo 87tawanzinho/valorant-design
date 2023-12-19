@@ -7,12 +7,12 @@ export default function ImageComponent() {
       <Image
         src={Raze}
         alt="Raze"
-        className="images-bg absolute end-0 top-32 opacity-75 "
+        className="images-bg absolute end-0 top-32 opacity-75 transition-all hover:opacity-100"
       />
       <Image
         src={Yoru}
         alt="Raze"
-        className=" images-bg  absolute end-48 top-80 opacity-75"
+        className=" images-bg  absolute end-48 top-80 opacity-75  transition-all hover:opacity-100"
       />
     </div>
   );

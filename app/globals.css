@@ -54,7 +54,16 @@ body {
 .images-bg {
   width: 240px;
 }
-
+.hoverMenu p {
+  padding: 2px;
+  font-size: 14px;
+}
+.hoverMenu p:hover {
+  cursor: pointer;
+  color: #fff;
+  border-radius: 4px;
+  background: rgba(175, 175, 175, 0.164);
+}
 @media (max-width: 700px) {
   .width-container {
     width: 100%;
