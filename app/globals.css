@@ -8,3 +8,30 @@
   box-sizing: border-box;
   color: white;
 }
+
+body {
+  background: black;
+}
+.bg-valorant {
+  background: rgb(6, 6, 19);
+  background: linear-gradient(
+    90deg,
+    rgba(6, 6, 19, 1) 0%,
+    rgba(35, 68, 75, 1) 100%
+  );
+}
+
+.bg-button {
+  background: rgb(251, 78, 78);
+  background: linear-gradient(
+    90deg,
+    rgba(251, 78, 78, 1) 0%,
+    rgba(232, 128, 97, 1) 97%
+  );
+}
+
+.shadow {
+  -webkit-box-shadow: -3px -2px 50px -3px rgba(148, 43, 43, 1);
+  -moz-box-shadow: -3px -2px 50px -3px rgba(148, 43, 43, 1);
+  box-shadow: -3px -2px 50px -3px rgba(148, 43, 43, 1);
+}

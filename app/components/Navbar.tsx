@@ -1,5 +1,6 @@
 import Image from "next/image";
 import menu from "@/public/info.gif";
+import user from "@/public/user.png";
 export default function NavBar() {
   return (
     <header className="flex p-4 justify-between">
@@ -8,7 +9,9 @@ export default function NavBar() {
       </div>
 
       <div>
-        <p>df</p>
+        <div className="bg-gray-800 rounded-full p-1">
+          <Image src={user} alt="user" />
+        </div>
       </div>
     </header>
   );
