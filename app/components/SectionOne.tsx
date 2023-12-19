@@ -6,7 +6,7 @@ export default function SectionOne() {
     <main className="flex flex-col align-left  gap-8  ">
       <Image src={valorantLogo} alt="logoValorant" className=" w-80 " />
 
-      <button className=" bg-button w-20 bg-red-800 w-40 h-14 text-2xl font-bold rounded-xl flex justify-center gap-4 items-center shadow  ">
+      <button className=" bg-button w-20 bg-red-800 w-40 h-14 text-2xl font-bold rounded-xl flex justify-center gap-4 items-center shadow transition-all ">
         <Image src={botaoPlay} alt="botao" className="h-10 w-10 " />
 
         <p>Jogar</p>

@@ -16,7 +16,7 @@ export default function Home() {
           <SectionTwo />
         </div>
       </div>
-      <p className="text-xs text-center p-2">
+      <p className="text-xs text-center p-2 w-3/5">
         Este projeto foi desenvolvido para simular o cliente do Valorant. Com
         isso em mente, a sua concepção foi voltada para computadores, assim como
         o cliente original. Para uma experiência visual única, assegure-se de

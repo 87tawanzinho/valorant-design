@@ -36,6 +36,12 @@ body {
   box-shadow: -3px -2px 50px -3px rgba(148, 43, 43, 1);
 }
 
+.shadow:hover {
+  -webkit-box-shadow: -3px -2px 90px -3px rgb(255, 255, 255);
+  -moz-box-shadow: -3px -2px 90px -3px rgb(255, 0, 0);
+  box-shadow: -3px -2px 90px -3px rgba(148, 43, 43, 1);
+}
+
 .width-container {
   width: 75%;
   height: 80%;
