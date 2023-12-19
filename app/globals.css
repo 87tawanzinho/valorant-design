@@ -35,3 +35,33 @@ body {
   -moz-box-shadow: -3px -2px 50px -3px rgba(148, 43, 43, 1);
   box-shadow: -3px -2px 50px -3px rgba(148, 43, 43, 1);
 }
+
+.width-container {
+  width: 75%;
+  height: 80%;
+}
+
+.padding-sections {
+  padding: 70px;
+}
+
+.images-bg {
+  width: 240px;
+}
+
+@media (max-width: 700px) {
+  .width-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  .padding-sections {
+    padding: 24px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .images-bg {
+    display: none;
+  }
+}
